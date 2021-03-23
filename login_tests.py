@@ -6,7 +6,7 @@ from utilities.teststatus import TestStatus
 from ddt import ddt, data, unpack
 from utilities.read_data import getCSVData
 import unittest
-import pytest
+import pytests
 
 @pytest.mark.usefixtures("oneTimeSetup","setUp")
 @ddt
