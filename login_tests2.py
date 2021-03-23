@@ -33,4 +33,5 @@ class LoginTests(unittest.TestCase):
         self.lp.login("tomket87@gmail.com","0101011")
         self.assertTrue(self.lp.verifyLoginFailed)
 		
-	@change added by privat1
+@change added by privat1
+@Some change performed on pivat2 branch
