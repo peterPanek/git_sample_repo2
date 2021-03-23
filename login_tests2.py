@@ -32,3 +32,5 @@ class LoginTests(unittest.TestCase):
     def test_invalidLogin(self):      
         self.lp.login("tomket87@gmail.com","0101011")
         self.assertTrue(self.lp.verifyLoginFailed)
+	
+	@Some change performed on pivat2 branch
